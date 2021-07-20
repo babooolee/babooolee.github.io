@@ -12,7 +12,7 @@ nav li.on a:after {width:100%;}
 
 
 .m01 .video_case {width:100%;height:100vh;overflow:hidden;}
-.m01 video {width:1920px;}
+.m01 video {width:1920px;transform:rotateY(180deg);}
 .m01 .txt {position:absolute;top:50%;left:50%;width:1200px;transform:translate(-50%,-50%);}
 
 .m01 .txt h2 {font-size:40px;font-weight:900;margin-bottom:20px;}
