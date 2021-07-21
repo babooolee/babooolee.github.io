@@ -7,7 +7,7 @@ $("#main").fullpage({
         //console.log(destination.index);
         $(".section").eq(destination.index).addClass("on").siblings().removeClass("on");
         $("nav li").eq(destination.index).addClass("on").siblings().removeClass("on");
-        if(destination.index===4) {
+        if(destination.index===5) {
            $("footer").css({color:"#fff"})
         }else{
            $("footer").removeAttr("style")
