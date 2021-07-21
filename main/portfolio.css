@@ -114,6 +114,17 @@ nav li.on a:after {width:100%;}
 }
 
 
+.pf04 img {width:100%;}
+.pf04 p {margin-bottom:30px;}
+.pf04 span {line-height:1.6;}
+.pf04 .txt {padding:40px 0 0 60px}
+
+@media (max-width:768px) {
+    .pf04 img {width:100%;}
+    .pf04 p {margin-bottom:20px;}
+    .pf04 span {line-height:1.4;}
+    .pf04 .txt {padding:0 30px 30px 30px}
+}
 
 footer {position:fixed;bottom:60px;left:60px;z-index:999;}
 footer .mbr {display:none;}
